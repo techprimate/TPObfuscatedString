@@ -1,6 +1,13 @@
 TPObfuscatedString
 ==================
 
+[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/TPObfuscatedString.svg)](https://img.shields.io/cocoapods/v/TPObfuscatedString.svg)
+[![Language](https://img.shields.io/badge/language-Swift-orange.svg)](https://developer.apple.com/swift/)
+[![Platform](https://img.shields.io/cocoapods/p/TPObfuscatedString.svg?style=flat)](http://cocoadocs.org/docsets/TPObfuscatedString.svg)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/Techprimate/TPLocalizedError/blob/master/LICENSE)
+[![Twitter](https://img.shields.io/badge/twitter-@Techprimate-blue.svg?style=flat)](http://twitter.com/techprimate)
+[![Website](https://img.shields.io/badge/www-techprimate.com-blue.svg?style=flat)](http://www.techprimate.com)
+
 TPObfuscatedString is a simple extension for `String` in Swift.
 It allows you to obfuscate hardcoded Strings in your compiled binary.
 
@@ -29,7 +36,7 @@ Communication
 - If you need help, use Stack Overflow.
 - If you found a bug, open an issue.
 - If you have a feature request, open an issue.
-- If you want to contribute, see [Contributing](https://github.com/Techprimate/TPLocalizedError#contributing) section.
+- If you want to contribute, see [Contributing](https://github.com/Techprimate/TPObfuscatedString#contributing) section.
 
 Installation
 ============
@@ -37,16 +44,16 @@ Installation
 **Via CocoaPods**  
 To integrate TPObfuscatedString into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
-`ruby
+```ruby
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 use_frameworks!
 
 pod 'TPObfuscatedString'
-`
+```
 
 **Manually**  
-1. Add `UAObfuscatedString.swift` to your project.  
+1. Add `TPObfuscatedString.swift` to your project.  
 2. That's it!
 
 Usage
@@ -73,13 +80,14 @@ This kind of obfuscated is slower than a hardcoded value which is pulled from th
 But you can combine this with a caching algorithm to fasten it up!
 Also this library is only recommended for short strings!
 
-Contact
-=======
+Contributing
+============
+I would appreciate it a lot to see you improving this library!
+The easiest way to contribute is fork the repo and send me a pull request after you created your adaption.
 
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/TPObfuscatedString.svg)](https://img.shields.io/cocoapods/v/TPObfuscatedString.svg)
-[![Platform](https://img.shields.io/cocoapods/p/TPObfuscatedString.svg?style=flat)](http://cocoadocs.org/docsets/TPObfuscatedString.svg)
-[![Twitter](https://img.shields.io/badge/twitter-@Techprimate-blue.svg?style=flat)](http://twitter.com/Techprimate)
-[![Website](https://img.shields.io/badge/www-techprimate.com-blue.svg?style=flat)](http://www.techprimate.com)
+Please be sure the project builds without any warnings or errors before submitting a pull request!
+
+I will respond to you and merging your changes into the master project as soon as possible!
 
 Author
 ======
@@ -89,4 +97,4 @@ Author
 
 License
 =======
-TPLocalizedError is available under the MIT license. See the **[LICENSE](https://github.com/Techprimate/TPLocalizedError/blob/master/LICENSE)** file for more info.
+TPLocalizedError is available under the MIT license. See the **[LICENSE](https://github.com/Techprimate/TPObfuscatedString/blob/master/LICENSE)** file for more info.

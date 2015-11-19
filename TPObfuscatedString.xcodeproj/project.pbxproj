@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D44192951BB5985D006D2A50 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D44192921BB5985D006D2A50 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
-		D44192961BB5985D006D2A50 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = D44192931BB5985D006D2A50 /* README.md */; settings = {ASSET_TAGS = (); }; };
-		D44192971BB5985D006D2A50 /* TPObfuscatedString.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D44192941BB5985D006D2A50 /* TPObfuscatedString.podspec */; settings = {ASSET_TAGS = (); }; };
+		D44192951BB5985D006D2A50 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D44192921BB5985D006D2A50 /* LICENSE */; };
+		D44192971BB5985D006D2A50 /* TPObfuscatedString.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D44192941BB5985D006D2A50 /* TPObfuscatedString.podspec */; };
 		D4DB29661B8F00FA00E6E8D4 /* TPObfuscatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB29651B8F00FA00E6E8D4 /* TPObfuscatedString.swift */; };
 		D4DB29741B8F017D00E6E8D4 /* TPObfuscatedStringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB29731B8F017D00E6E8D4 /* TPObfuscatedStringTests.swift */; };
 		D4DB29751B8F017D00E6E8D4 /* TPObfuscatedString.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4DB29451B8EFE0900E6E8D4 /* TPObfuscatedString.framework */; };
@@ -232,7 +231,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D44192961BB5985D006D2A50 /* README.md in Sources */,
 				D4DB29661B8F00FA00E6E8D4 /* TPObfuscatedString.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

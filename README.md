@@ -1,7 +1,7 @@
 TPObfuscatedString
 ==================
 
-[![Cocoapods Compatible](https://img.shields.io/cocoapods/v/TPObfuscatedString.svg)](https://img.shields.io/cocoapods/v/TPObfuscatedString.svg)
+[![CocoaPods Compatible](https://img.shields.io/cocoapods/v/TPObfuscatedString.svg)](https://img.shields.io/cocoapods/v/TPObfuscatedString.svg)
 [![Language](https://img.shields.io/badge/language-Swift-orange.svg)](https://developer.apple.com/swift/)
 [![Platform](https://img.shields.io/cocoapods/p/TPObfuscatedString.svg?style=flat)](http://cocoadocs.org/docsets/TPObfuscatedString.svg)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://github.com/Techprimate/TPLocalizedError/blob/master/LICENSE)

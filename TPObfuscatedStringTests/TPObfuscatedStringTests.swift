@@ -19,7 +19,7 @@ class TPObfuscatedStringTests: XCTestCase {
 //        randomString = randomStringWithLength(100)
         randomString = "https://192.168.0.67"
         print(TPObStr.T.h.i.s.space.i.s.space.a.n.space.e.x.a.m.p.l.e.space.t.e.x.t.colon.space.H.i.exclamation)
-        method = TPObfuscatedStringConverter.convert(randomString)
+        method = TPObfuscatedStringConverter.convert(phrase: randomString)
     }
     
     override func tearDown() {
@@ -31,18 +31,18 @@ class TPObfuscatedStringTests: XCTestCase {
     func testExample() {
         print("Random string to test: \n" + randomString + "\n")
         print("Corresponding TPObfuscatedMethodCall:\n" + method + "\n")
-        let result = callMethod(method)
+        let result = callMethod(method: method)
         print("Result of method call: \n" + result + "\n")
         XCTAssert(result == randomString, "Pass")
     }
     
     func testPerformanceString() {
-        measureBlock { () -> Void in
+        measure { () -> Void in
             var _ = "z{OpsNY^3xo\"-WO[k<t ',@I4A]P>+0NGlXX&k()\t=&[#:th:t.Wb.Ow&dQ=\"aoi@s>N2_J<n1vt/i(vDeaKmX1Tj[[mx3-; N|"
         }
     }
     func testPerformanceObfuscatedString() {
-        self.measureBlock() {
+        self.measure() {
             var _ = TPObStr.z.curlyopenbracket.O.p.s.N.Y.circumflex.three.x.o.quote.minus.W.O.openbracket.k.lessthan.t.space.apostrophe.comma.at.I.four.A.closebracket.P.greaterthan.plus.zero.N.G.l.X.X.and.k.openparantheses.closeparantheses.backslash.t.equal.and.openbracket.hash.colon.t.h.colon.t.dot.W.b.dot.O.w.and.d.Q.equal.quote.a.o.i.at.s.greaterthan.N.two.underscore.J.lessthan.n.one.v.t.slash.i.openparantheses.v.D.e.a.K.m.X.one.T.j.openbracket.openbracket.m.x.three.minus.semicolon.space.N.pipe
         }
     }
@@ -54,13 +54,13 @@ func randomStringWithLength (len : Int) -> String {
     var result = ""
     for _ in 0..<len {
         let num = Int(arc4random_uniform(UInt32(max - min))) + min
-        result += String(Character(UnicodeScalar(num)))
+        result += String(Character(UnicodeScalar(num)!))
     }
     return result
 }
 
 func callMethod(method: String) -> String {
-    let methodParts = method.componentsSeparatedByString(".")
+    let methodParts = method.components(separatedBy: ".")
     var result = TPObStr
     for call in methodParts {
         if call == "zero" {

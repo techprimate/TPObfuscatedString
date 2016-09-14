@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "TPObfuscatedString"
-  s.version      = "0.0.2"
+  s.version      = "1.0.0"
   s.license      = "MIT"
   s.summary      = "Simple and basic string obfuscating - based on UAObfuscatedString by Matt Coneybeare"  
   s.homepage     = "https://github.com/Techprimate/TPObfuscatedString"

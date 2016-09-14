@@ -113,6 +113,6 @@ public extension String {
     
 }
 
-private func UC(value: Int) -> String {
-    return String(Character(UnicodeScalar(value)))
+private func UC(_ value: Int) -> String {
+    return String(Character(UnicodeScalar(value)!))
 }

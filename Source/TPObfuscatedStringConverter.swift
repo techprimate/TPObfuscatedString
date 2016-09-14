@@ -14,8 +14,8 @@ class TPObfuscatedStringConverter {
         let characters = phrase.characters
         var result = [String]()
         
-        let formatter = NSNumberFormatter()
-        formatter.numberStyle = NSNumberFormatterStyle.SpellOutStyle
+        let formatter = NumberFormatter()
+        formatter.numberStyle = NumberFormatter.Style.spellOut
         
         for c in characters {
             let s = String(c).unicodeScalars
@@ -25,7 +25,7 @@ class TPObfuscatedStringConverter {
                 result.append(String(c))
                 break
             case 48...57:
-                result.append(formatter.stringFromNumber(Int(String(c))!)!)
+                result.append(formatter.string(from: NSNumber(value: Int(String(c))!))!)
                 break
             case 32:
                 result.append("space")
@@ -131,7 +131,7 @@ class TPObfuscatedStringConverter {
                 break
             }
         }
-        return result.joinWithSeparator(".")
+        return result.joined(separator: ".")
     }
     
     

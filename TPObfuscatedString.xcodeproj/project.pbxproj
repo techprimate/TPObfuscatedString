@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EB46EE421418972001C65D5 /* TPObfuscatedString_watchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB46EE221418972001C65D5 /* TPObfuscatedString_watchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB46EF12141898F001C65D5 /* TPObfuscatedString_tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB46EEF2141898F001C65D5 /* TPObfuscatedString_tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB46EFE2141899F001C65D5 /* TPObfuscatedString_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EB46EFC2141899F001C65D5 /* TPObfuscatedString_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EB46F02214189BC001C65D5 /* TPObfuscatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB29651B8F00FA00E6E8D4 /* TPObfuscatedString.swift */; };
+		6EB46F03214189BC001C65D5 /* TPObfuscatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB29651B8F00FA00E6E8D4 /* TPObfuscatedString.swift */; };
+		6EB46F04214189BD001C65D5 /* TPObfuscatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB29651B8F00FA00E6E8D4 /* TPObfuscatedString.swift */; };
 		D44192951BB5985D006D2A50 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = D44192921BB5985D006D2A50 /* LICENSE */; };
 		D44192971BB5985D006D2A50 /* TPObfuscatedString.podspec in Resources */ = {isa = PBXBuildFile; fileRef = D44192941BB5985D006D2A50 /* TPObfuscatedString.podspec */; };
 		D4DB29661B8F00FA00E6E8D4 /* TPObfuscatedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DB29651B8F00FA00E6E8D4 /* TPObfuscatedString.swift */; };
@@ -27,6 +33,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6EB46EE021418971001C65D5 /* TPObfuscatedString_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB46EE221418972001C65D5 /* TPObfuscatedString_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPObfuscatedString_watchOS.h; sourceTree = "<group>"; };
+		6EB46EE321418972001C65D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB46EED2141898E001C65D5 /* TPObfuscatedString_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB46EEF2141898F001C65D5 /* TPObfuscatedString_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPObfuscatedString_tvOS.h; sourceTree = "<group>"; };
+		6EB46EF02141898F001C65D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EB46EFA2141899F001C65D5 /* TPObfuscatedString_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB46EFC2141899F001C65D5 /* TPObfuscatedString_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPObfuscatedString_macOS.h; sourceTree = "<group>"; };
+		6EB46EFD2141899F001C65D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D44192921BB5985D006D2A50 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D44192931BB5985D006D2A50 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D44192941BB5985D006D2A50 /* TPObfuscatedString.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TPObfuscatedString.podspec; sourceTree = "<group>"; };
@@ -40,6 +55,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6EB46EDC21418971001C65D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB46EE92141898E001C65D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB46EF62141899F001C65D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4DB29411B8EFE0900E6E8D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -58,6 +94,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EB46EE121418972001C65D5 /* TPObfuscatedString watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46EE221418972001C65D5 /* TPObfuscatedString_watchOS.h */,
+				6EB46EE321418972001C65D5 /* Info.plist */,
+			);
+			path = "TPObfuscatedString watchOS";
+			sourceTree = "<group>";
+		};
+		6EB46EEE2141898F001C65D5 /* TPObfuscatedString tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46EEF2141898F001C65D5 /* TPObfuscatedString_tvOS.h */,
+				6EB46EF02141898F001C65D5 /* Info.plist */,
+			);
+			path = "TPObfuscatedString tvOS";
+			sourceTree = "<group>";
+		};
+		6EB46EFB2141899F001C65D5 /* TPObfuscatedString macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EB46EFC2141899F001C65D5 /* TPObfuscatedString_macOS.h */,
+				6EB46EFD2141899F001C65D5 /* Info.plist */,
+			);
+			path = "TPObfuscatedString macOS";
+			sourceTree = "<group>";
+		};
 		D44192981BB59861006D2A50 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +137,9 @@
 				D44192981BB59861006D2A50 /* Pod */,
 				D4DB29611B8F00A500E6E8D4 /* Source */,
 				D4DB29701B8F017D00E6E8D4 /* TPObfuscatedStringTests */,
+				6EB46EE121418972001C65D5 /* TPObfuscatedString watchOS */,
+				6EB46EEE2141898F001C65D5 /* TPObfuscatedString tvOS */,
+				6EB46EFB2141899F001C65D5 /* TPObfuscatedString macOS */,
 				D4DB29461B8EFE0900E6E8D4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +149,9 @@
 			children = (
 				D4DB29451B8EFE0900E6E8D4 /* TPObfuscatedString.framework */,
 				D4DB296F1B8F017D00E6E8D4 /* TPObfuscatedStringTests.xctest */,
+				6EB46EE021418971001C65D5 /* TPObfuscatedString_watchOS.framework */,
+				6EB46EED2141898E001C65D5 /* TPObfuscatedString_tvOS.framework */,
+				6EB46EFA2141899F001C65D5 /* TPObfuscatedString_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +194,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6EB46EDD21418971001C65D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46EE421418972001C65D5 /* TPObfuscatedString_watchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB46EEA2141898E001C65D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46EF12141898F001C65D5 /* TPObfuscatedString_tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB46EF72141899F001C65D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46EFE2141899F001C65D5 /* TPObfuscatedString_macOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4DB29421B8EFE0900E6E8D4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +228,60 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		6EB46EDF21418971001C65D5 /* TPObfuscatedString watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB46EE721418972001C65D5 /* Build configuration list for PBXNativeTarget "TPObfuscatedString watchOS" */;
+			buildPhases = (
+				6EB46EDB21418971001C65D5 /* Sources */,
+				6EB46EDC21418971001C65D5 /* Frameworks */,
+				6EB46EDD21418971001C65D5 /* Headers */,
+				6EB46EDE21418971001C65D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPObfuscatedString watchOS";
+			productName = "TPObfuscatedString watchOS";
+			productReference = 6EB46EE021418971001C65D5 /* TPObfuscatedString_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EB46EEC2141898E001C65D5 /* TPObfuscatedString tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB46EF22141898F001C65D5 /* Build configuration list for PBXNativeTarget "TPObfuscatedString tvOS" */;
+			buildPhases = (
+				6EB46EE82141898E001C65D5 /* Sources */,
+				6EB46EE92141898E001C65D5 /* Frameworks */,
+				6EB46EEA2141898E001C65D5 /* Headers */,
+				6EB46EEB2141898E001C65D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPObfuscatedString tvOS";
+			productName = "TPObfuscatedString tvOS";
+			productReference = 6EB46EED2141898E001C65D5 /* TPObfuscatedString_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6EB46EF92141899F001C65D5 /* TPObfuscatedString macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EB46EFF2141899F001C65D5 /* Build configuration list for PBXNativeTarget "TPObfuscatedString macOS" */;
+			buildPhases = (
+				6EB46EF52141899F001C65D5 /* Sources */,
+				6EB46EF62141899F001C65D5 /* Frameworks */,
+				6EB46EF72141899F001C65D5 /* Headers */,
+				6EB46EF82141899F001C65D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TPObfuscatedString macOS";
+			productName = "TPObfuscatedString macOS";
+			productReference = 6EB46EFA2141899F001C65D5 /* TPObfuscatedString_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D4DB29441B8EFE0900E6E8D4 /* TPObfuscatedString */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4DB295B1B8EFE0900E6E8D4 /* Build configuration list for PBXNativeTarget "TPObfuscatedString" */;
@@ -181,6 +328,18 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Philip Niedertscheider";
 				TargetAttributes = {
+					6EB46EDF21418971001C65D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Manual;
+					};
+					6EB46EEC2141898E001C65D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Manual;
+					};
+					6EB46EF92141899F001C65D5 = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Manual;
+					};
 					D4DB29441B8EFE0900E6E8D4 = {
 						CreatedOnToolsVersion = 6.4;
 					};
@@ -203,11 +362,35 @@
 			targets = (
 				D4DB29441B8EFE0900E6E8D4 /* TPObfuscatedString */,
 				D4DB296E1B8F017D00E6E8D4 /* TPObfuscatedStringTests */,
+				6EB46EDF21418971001C65D5 /* TPObfuscatedString watchOS */,
+				6EB46EEC2141898E001C65D5 /* TPObfuscatedString tvOS */,
+				6EB46EF92141899F001C65D5 /* TPObfuscatedString macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6EB46EDE21418971001C65D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB46EEB2141898E001C65D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB46EF82141899F001C65D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4DB29431B8EFE0900E6E8D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -227,6 +410,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6EB46EDB21418971001C65D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46F02214189BC001C65D5 /* TPObfuscatedString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB46EE82141898E001C65D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46F03214189BC001C65D5 /* TPObfuscatedString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EB46EF52141899F001C65D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB46F04214189BD001C65D5 /* TPObfuscatedString.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D4DB29401B8EFE0900E6E8D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +463,205 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		6EB46EE521418972001C65D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TPObfuscatedString watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		6EB46EE621418972001C65D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TPObfuscatedString watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-watchOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		6EB46EF32141898F001C65D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TPObfuscatedString tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		6EB46EF42141898F001C65D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Manual;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TPObfuscatedString tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		6EB46F002141899F001C65D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TPObfuscatedString macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		6EB46F012141899F001C65D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "TPObfuscatedString macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		D4DB29591B8EFE0900E6E8D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -441,6 +847,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6EB46EE721418972001C65D5 /* Build configuration list for PBXNativeTarget "TPObfuscatedString watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB46EE521418972001C65D5 /* Debug */,
+				6EB46EE621418972001C65D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB46EF22141898F001C65D5 /* Build configuration list for PBXNativeTarget "TPObfuscatedString tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB46EF32141898F001C65D5 /* Debug */,
+				6EB46EF42141898F001C65D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EB46EFF2141899F001C65D5 /* Build configuration list for PBXNativeTarget "TPObfuscatedString macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EB46F002141899F001C65D5 /* Debug */,
+				6EB46F012141899F001C65D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D4DB293F1B8EFE0900E6E8D4 /* Build configuration list for PBXProject "TPObfuscatedString" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

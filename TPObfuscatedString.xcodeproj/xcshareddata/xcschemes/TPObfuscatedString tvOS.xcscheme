@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D4DB29441B8EFE0900E6E8D4"
-               BuildableName = "TPObfuscatedString.framework"
-               BlueprintName = "TPObfuscatedString"
+               BlueprintIdentifier = "6EB46EEC2141898E001C65D5"
+               BuildableName = "TPObfuscatedString_tvOS.framework"
+               BlueprintName = "TPObfuscatedString tvOS"
                ReferencedContainer = "container:TPObfuscatedString.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D4DB296E1B8F017D00E6E8D4"
-               BuildableName = "TPObfuscatedStringTests.xctest"
-               BlueprintName = "TPObfuscatedStringTests"
-               ReferencedContainer = "container:TPObfuscatedString.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D4DB29441B8EFE0900E6E8D4"
-            BuildableName = "TPObfuscatedString.framework"
-            BlueprintName = "TPObfuscatedString"
-            ReferencedContainer = "container:TPObfuscatedString.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -64,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D4DB29441B8EFE0900E6E8D4"
-            BuildableName = "TPObfuscatedString.framework"
-            BlueprintName = "TPObfuscatedString"
+            BlueprintIdentifier = "6EB46EEC2141898E001C65D5"
+            BuildableName = "TPObfuscatedString_tvOS.framework"
+            BlueprintName = "TPObfuscatedString tvOS"
             ReferencedContainer = "container:TPObfuscatedString.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D4DB29441B8EFE0900E6E8D4"
-            BuildableName = "TPObfuscatedString.framework"
-            BlueprintName = "TPObfuscatedString"
+            BlueprintIdentifier = "6EB46EEC2141898E001C65D5"
+            BuildableName = "TPObfuscatedString_tvOS.framework"
+            BlueprintName = "TPObfuscatedString tvOS"
             ReferencedContainer = "container:TPObfuscatedString.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -33,13 +33,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6EB46EE021418971001C65D5 /* TPObfuscatedString_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB46EE021418971001C65D5 /* TPObfuscatedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB46EE221418972001C65D5 /* TPObfuscatedString_watchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPObfuscatedString_watchOS.h; sourceTree = "<group>"; };
 		6EB46EE321418972001C65D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EB46EED2141898E001C65D5 /* TPObfuscatedString_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB46EED2141898E001C65D5 /* TPObfuscatedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB46EEF2141898F001C65D5 /* TPObfuscatedString_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPObfuscatedString_tvOS.h; sourceTree = "<group>"; };
 		6EB46EF02141898F001C65D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6EB46EFA2141899F001C65D5 /* TPObfuscatedString_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EB46EFA2141899F001C65D5 /* TPObfuscatedString.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPObfuscatedString.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EB46EFC2141899F001C65D5 /* TPObfuscatedString_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TPObfuscatedString_macOS.h; sourceTree = "<group>"; };
 		6EB46EFD2141899F001C65D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D44192921BB5985D006D2A50 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -149,9 +149,9 @@
 			children = (
 				D4DB29451B8EFE0900E6E8D4 /* TPObfuscatedString.framework */,
 				D4DB296F1B8F017D00E6E8D4 /* TPObfuscatedStringTests.xctest */,
-				6EB46EE021418971001C65D5 /* TPObfuscatedString_watchOS.framework */,
-				6EB46EED2141898E001C65D5 /* TPObfuscatedString_tvOS.framework */,
-				6EB46EFA2141899F001C65D5 /* TPObfuscatedString_macOS.framework */,
+				6EB46EE021418971001C65D5 /* TPObfuscatedString.framework */,
+				6EB46EED2141898E001C65D5 /* TPObfuscatedString.framework */,
+				6EB46EFA2141899F001C65D5 /* TPObfuscatedString.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -243,7 +243,7 @@
 			);
 			name = "TPObfuscatedString watchOS";
 			productName = "TPObfuscatedString watchOS";
-			productReference = 6EB46EE021418971001C65D5 /* TPObfuscatedString_watchOS.framework */;
+			productReference = 6EB46EE021418971001C65D5 /* TPObfuscatedString.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6EB46EEC2141898E001C65D5 /* TPObfuscatedString tvOS */ = {
@@ -261,7 +261,7 @@
 			);
 			name = "TPObfuscatedString tvOS";
 			productName = "TPObfuscatedString tvOS";
-			productReference = 6EB46EED2141898E001C65D5 /* TPObfuscatedString_tvOS.framework */;
+			productReference = 6EB46EED2141898E001C65D5 /* TPObfuscatedString.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6EB46EF92141899F001C65D5 /* TPObfuscatedString macOS */ = {
@@ -279,7 +279,7 @@
 			);
 			name = "TPObfuscatedString macOS";
 			productName = "TPObfuscatedString macOS";
-			productReference = 6EB46EFA2141899F001C65D5 /* TPObfuscatedString_macOS.framework */;
+			productReference = 6EB46EFA2141899F001C65D5 /* TPObfuscatedString.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D4DB29441B8EFE0900E6E8D4 /* TPObfuscatedString */ = {
@@ -486,7 +486,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPObfuscatedString;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -519,7 +519,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-watchOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPObfuscatedString;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -552,7 +552,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPObfuscatedString;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -584,7 +584,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-tvOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPObfuscatedString;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
@@ -620,7 +620,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPObfuscatedString;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
@@ -653,7 +653,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = "dkp.TPObfuscatedString-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = TPObfuscatedString;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
